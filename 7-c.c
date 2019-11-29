@@ -9,7 +9,7 @@ int main()
 	for (i = 0; i < grp; i++) scanf("%d", &grp_[i]);//输入最后一行的标记数，第i行的标记为几
 	for (i = 0; i < grp - 1; i++)//输出第i个字符串
 	{
-		for (ii = 0; ii < grp; ii++) if (grp_[ii] == i) printf("%s ", ch[ii]);//搜索标记为i的那行，输出该行
+		for (ii = 0; ii < grp; ii++) if (grp_[ii] == i) printf("%s ", ch[ii]);//搜索标记为i的那行，输出该行和空格
 	}
 	for (i = 0; i < grp; i++) if (grp_[i] == grp - 1)printf("%s\n", ch[i]);//输出最后一行的字符串
 }
