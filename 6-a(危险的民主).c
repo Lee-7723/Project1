@@ -8,7 +8,7 @@ int main()
 	{
 		for (i = ii+1; i < grp; i++)
 		{
-			if (num[i] < num[ii])
+			if (num[i] < num[ii])//冒泡排序
 			{
 				int temp;
 				temp = num[i];
@@ -18,7 +18,7 @@ int main()
 			else num[ii] = num[ii];
 		}
 	}
-	for (i = 0; i < (grp+1)/2; i++)
+	for (i = 0; i < (grp+1)/2; i++)//取前一半的小组算人数
 	{
 		sum=sum+(num[i] +1)/ 2;
 	}
