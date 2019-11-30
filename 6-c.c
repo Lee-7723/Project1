@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int count,i=0,sn=0,ew=0,dir=100;
+	int count,i=0,sn=0,ew=0,dir=100;//i用于记录路口数量，sn是南北轴，ew是东西轴，dir用来记录方向
 	char a[20];
 	scanf("%s", &a);
 	while (a[i] != '\0')
