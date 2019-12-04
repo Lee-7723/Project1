@@ -98,7 +98,7 @@ int main()
 				printf("\n");
 			}
 		}
-		else
+		else//此处添加了if else来解决奇偶问题
 		{
 			for (i = 1; i <= (a /*- 1*/) / 2; i++)
 			{

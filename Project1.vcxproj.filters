@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="邵沛祖.c">
+    <ClCompile Include="邵沛祖3.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
