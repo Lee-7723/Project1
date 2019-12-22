@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://10.105.242.83/contest/1062/problem/C -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen"></style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}</style><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #141718 !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #141718;
+}
+html, body, input, textarea, select, button {
+    border-color: #797979;
+    color: #ffffff;
+}
+a {
+    color: #53d3ff;
+}
+table {
+    border-color: #676767;
+}
+::placeholder {
+    color: #ffffff;
+}
+::selection {
+    background-color: #007eff;
+    color: #ffffff;
+}
+::-moz-selection {
+    background-color: #007eff;
+    color: #ffffff;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #747d01 !important;
+    color: #ffffff !important;
+}
+::-webkit-scrollbar {
+    background-color: #1a1d1e;
+    color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #313436;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3e4245;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #505458;
+}
+::-webkit-scrollbar-corner {
+    background-color: #141718;
+}
+* {
+    scrollbar-color: #313436 #1a1d1e;
+}</style>
+    
+    <title> BOJ-V4| 期中测试作业</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+  <link href="./BOJ-V4_ 期中测试作业-C_files/site-5a6962519f.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+<link href="./BOJ-V4_ 期中测试作业-C_files/site-contest.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+
+
+
+    
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    
+
+    
+    <link rel="stylesheet" href="./BOJ-V4_ 期中测试作业-C_files/font-awesome.min.css" type="text/css" charset="utf-8" xmlns="http://www.w3.org/1999/html"><style class="darkreader darkreader--sync" media="screen"></style>
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="./BOJ-V4_ 期中测试作业-C_files/bootstrap.min.css" type="text/css" charset="utf-8"><style class="darkreader darkreader--sync" media="screen"></style>
+    <!--link rel="stylesheet" href="/site_media/static/css/style.css" type="text/css" charset="utf-8"-->
+
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="./BOJ-V4_ 期中测试作业-C_files/editormd.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="./BOJ-V4_ 期中测试作业-C_files/katex.min.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <script id="-cdnjs-cloudflare-com-ajax-libs-KaTeX-0-3-0-katex-min" type="text/javascript" src="./BOJ-V4_ 期中测试作业-C_files/katex.min.js.下载"></script><style class="darkreader darkreader--override" media="screen">.jfk-bubble {
+    background-color: #000000 !important;
+}
+.vimvixen-hint {
+    background-color: #aa7300 !important;
+    border-color: #ffff31 !important;
+    color: #ffffff !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}</style>
+
+      <link href="./BOJ-V4_ 期中测试作业-C_files/bootstrap.min.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+      <link href="./BOJ-V4_ 期中测试作业-C_files/stylefix.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+  <link type="text/css" rel="stylesheet" href="./BOJ-V4_ 期中测试作业-C_files/katex.min.css"><style class="darkreader darkreader--sync" media="screen"></style><script id="lib-katex-min" type="text/javascript" src="./BOJ-V4_ 期中测试作业-C_files/katex.min.js.下载"></script></head>
+  <body class="" id="" style="">
+    <div class="">
+
+      
+      <header>
+        <div class="navbar navbar-default navbar-fixed-top" style="z-index: 1000">
+          <div class="container">
+            
+            <div class="navbar-header">
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="fa fa-bars"></span>
+              </button>
+              <a class="navbar-brand" href="http://10.105.242.83/">Excited OJ</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+              
+              <ul class="nav navbar-nav">
+                <li><a href="http://10.105.242.83/problem/">题目</a></li>
+                <li><a href="http://10.105.242.83/submission/">提交</a></li>
+                  <li><a href="http://10.105.242.83/contest/">考试</a></li>
+                  <li><a href="http://10.105.242.83/accounts/groups/">用户组</a></li>
+                  
+              </ul>
+              
+              
+
+
+
+<ul class="nav navbar-nav pull-right">
+  <li><a href="http://10.105.242.83/famehall/index.html"><i class="fa fa-user"></i>FameHall</a></li>
+	
+  <li>
+    <a href="http://10.105.242.83/accounts/settings/"><i class="fa fa-user"></i> 2019211056</a>
+  </li>
+  <li>
+    <a id="account_logout" href="http://10.105.242.83/accounts/logout/"><i class="fa fa-power-off"></i> 注销</a>
+  </li>
+  
+</ul>
+
+<form id="accountLogOutForm" style="display: none;" action="http://10.105.242.83/accounts/logout/" method="POST">
+  <input type="hidden" name="csrfmiddlewaretoken" value="fh6oUV5U4OB5lumhPU2EbnsiHsoFrtzZ">
+</form>
+
+            </div>
+            
+          </div>
+        </div>
+      </header>
+      
+
+      
+      <section id="content_body">
+        <div class="container">
+          
+
+
+          
+<div class="page-header">
+    
+        <a class="btn btn-primary pull-right" href="http://10.105.242.83/contest/1062/clarification/add/">添加提问</a>
+    
+    
+    <h1>期中测试作业
+        <small>进行中</small>
+    </h1>
+        <br>
+        
+    
+</div>
+
+<ul class="nav nav-pills">
+    <li id="contest_home"><a href="http://10.105.242.83/contest/1062/">测验首页</a></li>
+    <li id="contest_submit"><a href="http://10.105.242.83/contest/1062/submit/">提交代码</a></li>
+    <li id="contest_status"><a href="http://10.105.242.83/contest/1062/submission/">结果列表</a></li>
+    <li id="contest_query"><a href="http://10.105.242.83/contest/1062/clarification/">提问列表</a></li>
+    <li id="contest_board"><a href="http://10.105.242.83/contest/1062/board/">排行榜</a></li>
+    
+    
+</ul>
+<div id="contest_info">
+    <div class="kari-head-info">
+        <span class="kari-head-info"><strong>课程分班 </strong>大学计算机基础与C语言-王晓晖-2019秋</span>
+        
+    </div>
+    <div class="kari-head-info">
+        <span class="kari-head-info"><strong>当前时间 </strong><span class="clock">2019-12-22 09:55:17</span></span>
+        <span class="kari-head-info"><strong>开始时间 </strong>2019-11-01 15:00:00</span>
+        <span class="kari-head-info"><strong>总长 </strong>300000 分钟</span>
+        <span class="kari-head-info"><strong>剩余 </strong><span style="margin-right:0;" class="leftTime">3781:04:42</span></span>
+    </div>
+    <div class="row">
+        <div class="progress span12"><div class="progress-bar" style="width: 24.3784%;"></div></div>
+    </div>
+</div>
+    <div class="container" id="wrapper">
+
+       <h1>C. <strong>C语言_ex19_04</strong></h1>
+      <table class="table">
+          <tbody>
+          <tr>
+                <td><strong>运行时间限制: </strong>1000</td>
+                <td><strong>运行内存限制: </strong>65536</td>
+          </tr>
+          <tr>
+                <td><strong>作者: </strong>scsyuanbaoku</td>
+                <td><strong>是否specialjudge</strong>: False</td>
+          </tr>
+          </tbody>
+        </table>
+      <div class="row">
+          <h4>题目描述</h4>
+          <div id="test-editormd-view" class="markdown-body editormd-html-preview"><p>请你根据给定的三条线段的长度来判断这三条线段是否能构成一个三角形</p>
+<p>输入：<br>只有一行，为三个用空格分隔的正整数，代表三条线段的长度。</p>
+<p>输出：<br>如果给定的三条线段能构成一个三角形则输出yes，否则输出no。测试用例保证输入合法且可以用int型存储。</p>
+</div>
+      </div>
+      <br>
+        
+        <div class="row">
+          <h4>输入样例</h4>
+          <pre><code>100 90 80</code></pre>
+        </div>
+    
+    
+        <div class="row">
+           <h4>输出样例</h4>
+           <pre><code>yes</code></pre>
+        </div>
+    
+    <div class="row">
+        <a href="http://10.105.242.83/contest/1062/submit/?index=C" class="btn btn-primary">提交题目</a>
+    
+    </div>
+    </div>
+
+  </div>
+    
+
+    <script src="./BOJ-V4_ 期中测试作业-C_files/jquery-2.1.1.js.下载"></script>
+    <script src="./BOJ-V4_ 期中测试作业-C_files/jquery-ui.min.js.下载"></script>
+    <script>
+        Date.prototype.format = function(format) {
+            var o = {
+                "M+" : this.getMonth() + 1,// month
+                "d+" : this.getDate(),// day
+                "h+" : this.getHours(),// hour
+                "m+" : this.getMinutes(),// minute
+                "s+" : this.getSeconds(),// second
+                "q+" : Math.floor((this.getMonth() + 3) / 3),// quarter
+                "S" : this.getMilliseconds()
+            // millisecond
+            };
+            if (/(y+)/.test(format) || /(Y+)/.test(format)) {
+                format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            }
+            for ( var k in o) {
+                if (new RegExp("(" + k + ")").test(format)) {
+                    format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
+                }
+            }
+            return format;
+        };
+        function formatSeconds(sec) {
+            var mm = parseInt(sec%3600/60);
+            var ss = sec%60;
+            return "" + parseInt(sec/3600) + ":" + (mm<10?"0":"") + mm + ":" +  (ss<10?"0":"") + ss;
+        }
+
+        var timestamp = 1576979712.0*1000;//毫秒
+        var updateTime = function(){
+            $('.clock').html(new Date(timestamp).format("yyyy-MM-dd hh:mm:ss"));
+            timestamp+=1000;
+            return updateTime;
+        }
+        setInterval(updateTime(), 1000);
+
+
+        var leftTime = 13611887;//秒
+        var totTime = 300000*60; //秒
+        var updateLeftTime = function() {
+            if (leftTime >= 0) {
+                $('.leftTime').html(formatSeconds(leftTime));
+                $('.progress-bar').width((1-leftTime/totTime)*100+"%");
+            }
+            else {
+                alert("比赛已结束！");
+                location.reload();
+            }
+            if (leftTime > 0) --leftTime;
+            return updateLeftTime;
+        }
+        if(leftTime>0){
+            setInterval(updateLeftTime(), 1000);
+        }else{
+            $('.leftTime').html(formatSeconds(0));
+            $('.progress-bar').width("100%");
+        }
+    </script>
+    <script>
+        function rejudgeProblem(index) {
+            url = [
+                "/api/contest/1062/problem/",
+                index,
+                "/rejudge/"
+            ].join('');
+
+            $.post(url).success(function() {
+                location.reload();
+            }).error(function (error) {
+                if (typeof error.responseJson !== "undefined") {
+                    alert(error.responseJson.detail);
+                }
+                else
+                    alert("未知错误：" + error.status)
+            });
+        }
+
+        (function () {
+            $("#confirm-rejudge-problem").click(function () {
+                rejudgeProblem($("#problem-to-rejudge").val());
+            });
+        })();
+    </script>
+    
+    <script src="./BOJ-V4_ 期中测试作业-C_files/jquery.min.js.下载"></script>
+  <script src="./BOJ-V4_ 期中测试作业-C_files/marked.min.js.下载"></script>
+  <script src="./BOJ-V4_ 期中测试作业-C_files/prettify.min.js.下载"></script>
+
+  <script src="./BOJ-V4_ 期中测试作业-C_files/raphael.min.js.下载"></script>
+  <script src="./BOJ-V4_ 期中测试作业-C_files/underscore.min.js.下载"></script>
+  <script src="./BOJ-V4_ 期中测试作业-C_files/sequence-diagram.min.js.下载"></script>
+  <script src="./BOJ-V4_ 期中测试作业-C_files/flowchart.min.js.下载"></script>
+  <script src="./BOJ-V4_ 期中测试作业-C_files/jquery.flowchart.min.js.下载"></script>
+
+  <script src="./BOJ-V4_ 期中测试作业-C_files/editormd.js.下载"></script>
+  <script type="text/javascript">
+      $(function() {
+          var testEditormdView, testEditormdView2;
+
+          testEditormdView = editormd.markdownToHTML("test-editormd-view", {
+              //markdown        : markdown ,//+ "\r\n" + $("#append-test").text(),
+              //htmlDecode      : true,       // 开启 HTML 标签解析，为了安全性，默认不开启
+              htmlDecode      : "style,script,iframe",  // you can filter tags decode
+              //toc             : false,
+              tocm            : true,    // Using [TOCM]
+              //tocContainer    : "#custom-toc-container", // 自定义 ToC 容器层
+              //gfm             : false,
+              //tocDropdown     : true,
+              // markdownSourceCode : true, // 是否保留 Markdown 源码，即是否删除保存源码的 Textarea 标签
+              emoji           : true,
+              taskList        : true,
+              tex             : true,  // 默认不解析
+              flowChart       : true,  // 默认不解析
+              sequenceDiagram : true,  // 默认不解析
+          });
+
+          //console.log("返回一个 jQuery 实例 =>", testEditormdView);
+
+          // 获取Markdown源码
+          console.log(testEditormdView.getMarkdown());
+
+          //alert(testEditormdView.getMarkdown());
+      });
+  </script>
+
+
+        </section></div>
+      
+      
+
+      
+      <footer class="footer">
+        <div class="container">
+          
+  
+
+© 2016-2019 &lt;BUPT ACM&gt;
+
+
+<p id="t">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/12/22 上午9:55:12</p>
+<script>
+var a = new Date();
+document.getElementById("t").innerHTML ="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a.toLocaleDateString()+" "+a.toLocaleTimeString();
+</script>
+
+
+
+
+        </div>
+      </footer>
+      
+    
+
+    
+  <script src="./BOJ-V4_ 期中测试作业-C_files/site-451c79d36b.js.下载"></script>
+<script src="./BOJ-V4_ 期中测试作业-C_files/site-contest.js.下载"></script>
+
+
+    
+    <script src="./BOJ-V4_ 期中测试作业-C_files/theme.js.下载"></script>
+    
+
+    
+  
+    <script>
+    var h = window.location.href.split("?");
+    if (h.length > 1) {
+        var href = h[1];
+        if (href.length > 0) {
+            if (href[0] == "p"){
+                if (href[1] == "a") {
+                    var hf = href.split("&");
+                    hf.shift();
+                    href = hf.join("&");
+                }
+            }
+            $("ul.pagination").find("a").each(function () {
+                $(this).attr("href", $(this).attr("href") + "&" + href);
+            });
+        }
+    }
+
+    </script>
+  
+
+  
+
+</body></html>
