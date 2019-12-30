@@ -1,3 +1,15 @@
+## 最近体验的AI机器学习放大图像算法
+
+（如果不能看到图片请尝试戳链接或者Download，如果还不行请自行修改hosts)
+
+原图
+
+![avatar](https://github.com/Lijingze2019/Git/blob/master/%E6%9D%8E%E7%AB%9E%E6%8B%A92.png)
+
+算法放大
+
+![avatar](https://github.com/Lijingze2019/Git/blob/master/%E6%9D%8E%E7%AB%9E%E6%8B%A92(RGB)(auto_scale)(Level3)(x4.000000).png)
+
 # awesome-comment
 
 

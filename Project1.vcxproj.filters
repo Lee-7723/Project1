@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="邵沛祖7-c.c">
+    <ClCompile Include="8-f(try again).c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
